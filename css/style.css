@@ -146,11 +146,47 @@ body{
  
    @media(max-width:767px){
        .sec-contact{
-           margin-left:0;
+          margin-top:20px;
+           margin-left:35px;
            margin-right: 45px;
            padding-left: 0;
        }
    }
+
+   @media(max-width:967px){
+    .sec-contact{
+       margin-top:70px;
+        margin-left:35px;
+        margin-right: 45px;
+        padding-left: 0;
+        /* padding */
+    }
+}
+
+
+/* REGISTER PAGE */
+
+
+@media(max-width:967px){
+  .sec{
+     /* margin-top:70px; */
+      margin-left:35px;
+      margin-right: 45px;
+      padding-left: 0;
+ 
+  }
+}
+
+@media(max-width:767px){
+  .sec-contact{
+     margin-top:20px;
+      margin-left:35px;
+      margin-right: 45px;
+      padding-left: 0;
+  }
+}
+
+
 
    /* ABOUT SECTION */
 
@@ -282,7 +318,7 @@ body{
   @media(max-width:650px){
     #pro-sec{
       margin-left: 30px;
-      padding-right: 50px;
+      padding-right: 100px;
       position:absolute;
       padding-left:0;
       
